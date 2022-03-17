@@ -349,7 +349,6 @@
 .footer__column-links{
   display: flex;
   flex-direction: column;
-  list-style-type: none;
   margin: 0;
   padding: 0 0 16px 0;
 }
@@ -358,6 +357,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
+  text-decoration: none;
   color: #2f80ed;
 }
 
