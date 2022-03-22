@@ -54,6 +54,7 @@
   font-weight: normal;
   line-height: 25px;
   margin: 0;
+  z-index: 3
 }
 
 .header__link {
@@ -193,6 +194,10 @@
   margin-top: 0;
 }
 
+.table__text:last-of-type {
+  margin-bottom: 0;
+}
+
 /* Стили для раздела Метод Фейнмана */
 
 .feynman {
@@ -204,7 +209,7 @@
   min-height: 890px;
 }
 
-.feynman__title{
+.feynman__title {
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -214,7 +219,7 @@
   z-index: 1;
 }
 
-.feynman__subtitle{
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -222,7 +227,7 @@
   z-index: 1;
 }
 
-.feynman__link{
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -346,15 +351,14 @@
   padding: 18px 0;
 }
 
-
-.footer__column-heading{
+.footer__column-heading {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
   margin: 0 0 20px 0;
 }
 
-.footer__column-links{
+.footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0;
